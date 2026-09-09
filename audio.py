@@ -14,11 +14,11 @@ def sound(at,kind='key'):
  audio[start:end]+=v[:end-start]
 for s,e,k in [(4.1,5.4,12),(10.2,11.25,5),(12,13.45,8),(15.4,17,9),(25.8,27.35,18),(28.45,30,19),(41,42.8,19)]:
  for i in range(k):sound(s+(e-s)*i/k+.018*np.sin(i*2.1))
-for t in [2.35,3.2,7.05,8.9,25.05,39.3,40.1]:sound(t,'notify')
+for t in [2.35,3.2,7.05,8.9,25.05,36.8,37.65,39.3,40.1]:sound(t,'notify')
 sound(.55,'notify')
-for t in [5.65,11.55,13.75,23.5,27.7,30.3,37.65,43.15]:sound(t,'send')
-for t in [2.07,14.1,17.6,20.5,21.5,22.84,31.06,35.7,36.9]:sound(t,'tap')
-sound(35.05,'shutter')
+for t in [5.65,11.55,13.75,23.5,27.7,30.3,43.15]:sound(t,'send')
+for t in [2.07,14.1,17.6,20.5,21.5,22.84,31.06,35.7]:sound(t,'tap')
+
 audio=np.clip(audio,-.85,.85)
 with wave.open('public/ui-audio.wav','wb') as w:
  w.setnchannels(1);w.setsampwidth(2);w.setframerate(sr);w.writeframes((audio*32767).astype('<i2').tobytes())

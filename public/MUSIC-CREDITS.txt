@@ -1,0 +1,1 @@
+Original 100 BPM piano composition and arrangement created for this video. Piano samples: FluidR3 GM, distributed by gleitz/midi-js-soundfonts. License CC BY 3.0: https://creativecommons.org/licenses/by/3.0/ Source: https://github.com/gleitz/midi-js-soundfonts . Samples were trimmed, mixed and reverberated. No original reference-video recording reused.

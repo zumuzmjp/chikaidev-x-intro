@@ -1,11 +1,13 @@
 {
   "name": "chikaidev-x-intro",
   "version": "1.0.0",
-  "description": "",
+  "description": "MiniMax H3 human footage + Remotion phone UI: a 48-second X profile introduction",
   "main": "index.js",
   "scripts": {
-    "render": "python3 audio.py && node render.cjs",
-    "studio": "remotion studio src/index.tsx"
+    "render": "npm run audio && node render.cjs",
+    "studio": "remotion studio src/index.tsx",
+    "audio": "python3 audio.py && python3 music.py",
+    "still": "remotion still src/index.tsx ChikaidevIntro out/preview.png --frame=600"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +20,9 @@
     "react-dom": "19.2.8",
     "remotion": "4.0.522",
     "typescript": "7.0.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
   }
 }
