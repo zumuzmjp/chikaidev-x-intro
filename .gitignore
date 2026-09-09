@@ -1,0 +1,8 @@
+node_modules/
+.venv/
+out/
+public/*.wav
+__pycache__/
+.env
+.env.*
+.DS_Store
