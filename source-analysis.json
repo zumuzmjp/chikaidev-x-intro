@@ -1,0 +1,82 @@
+{
+  "fail_reason": null,
+  "id": "05b95214-2d7f-4e68-88f5-12527a4c0af1",
+  "scenes": [
+    {
+      "audio": "A gentle, light piano melody begins playing at a moderate tempo.",
+      "label": "Opening Hook",
+      "scene_number": 1,
+      "shot_type": "Medium Close-Up",
+      "timestamp_end": "0:01",
+      "timestamp_start": "0:00",
+      "visual": "A young woman, approximately 18-22 years old, with fair skin and shoulder-length dark brown hair, is recording herself. She wears a black t-shirt with a Hello Kitty illustration. She is positioned centrally in the frame, holding a smartphone vertically in front of her. The background is a brightly lit indoor office space with a white wall and a red and white Huawei logo visible behind her. A notification bubble appears at the top of the screen."
+    },
+    {
+      "audio": "The piano melody continues. (Translated from Japanese) Contact: 'I have something I want to talk to you about.' User: 'That's scary.' Contact: 'What story/topic?' User: 'Didn't you say you wanted to go to a university abroad the other day? Was that serious?' User: 'Yeah, I was serious.' User: 'By the way, it's about this...' User: 'If we can't see each other much, I feel like my feelings might fade.' User: 'Wait a bit. Look at this.'",
+      "label": "Problem Solving",
+      "scene_number": 2,
+      "shot_type": "POV Shot",
+      "timestamp_end": "0:13",
+      "timestamp_start": "0:01",
+      "visual": "The camera perspective shifts to a screen recording of a messaging app interface. A chat conversation is visible between the user and a contact. The background of the chat features a brown bear illustration. The user types and sends messages. Several stickers of cartoon characters (bears and bunnies) are sent and received during the interaction. A keyboard appears and disappears as the user interacts with the message field."
+    },
+    {
+      "audio": "The upbeat piano melody continues without interruption.",
+      "label": "Usage Scenarios",
+      "scene_number": 3,
+      "shot_type": "POV Shot",
+      "timestamp_end": "0:18",
+      "timestamp_start": "0:13",
+      "visual": "The screen recording shows the user navigating out of the messaging app to the phone's home screen and then to a web browser. A search for a university is performed by typing in the search bar. The browser then loads a official university website with a red header and information about an open campus event."
+    },
+    {
+      "audio": "The piano melody continues. (Translated from Japanese) User: 'This is a Chinese university, but it has a campus in Yotsuya. They say you can study things like Chinese and AI at a Chinese university while in Japan.'",
+      "label": "Product Information",
+      "scene_number": 4,
+      "shot_type": "POV Shot",
+      "timestamp_end": "0:31",
+      "timestamp_start": "0:18",
+      "visual": "The screen recording returns to the messaging app. The user pastes the URL for the university website into the chat and sends it. A link preview with a purple and white logo for 'Shenzhen University Tokyo College' appears. The user continues to type more detailed messages explaining the university's features, including its location in Yotsuya and the subjects offered."
+    },
+    {
+      "audio": "The piano melody continues.",
+      "label": "Product Selling Points",
+      "scene_number": 5,
+      "shot_type": "POV Shot",
+      "timestamp_end": "0:33",
+      "timestamp_start": "0:31",
+      "visual": "The screen recording shows the user clicking the link to view a page on the university's website. The page highlights university rankings, showing a comparison chart where the university is ranked 166th globally according to U.S. News. The page has a clean white background with blue and red graphic elements."
+    },
+    {
+      "audio": "The piano melody continues. (Translated from Japanese) User: 'Isn't this university really smart?' User: 'Doesn't it seem really advantageous for job hunting?'",
+      "label": "Usage Scenarios",
+      "scene_number": 6,
+      "shot_type": "POV Shot",
+      "timestamp_end": "0:40",
+      "timestamp_start": "0:33",
+      "visual": "Back in the chat interface, the user sends a follow-up message about the university's quality and its impact on career prospects. More animated stickers are exchanged to express excitement and agreement."
+    },
+    {
+      "audio": "The piano melody continues.",
+      "label": "Product Selling Points",
+      "scene_number": 7,
+      "shot_type": "POV Shot",
+      "timestamp_end": "0:43",
+      "timestamp_start": "0:40",
+      "visual": "The screen recording returns to the browser briefly to show a gallery of images on the university's website. The photos display modern campus buildings, large lecture halls, and students collaborating in a bright, contemporary environment."
+    },
+    {
+      "audio": "The piano melody reaches a concluding phrase. (Translated from Japanese) Contact: 'That's really good!' User: 'It really hit the mark, haha.'",
+      "label": "Real Experience",
+      "scene_number": 8,
+      "shot_type": "POV Shot",
+      "timestamp_end": "0:51",
+      "timestamp_start": "0:43",
+      "visual": "The final scene returns to the chat app. The contact responds with enthusiastic messages and positive stickers. The recording ends as the user types a final laughing message. The screen shows the full history of the positive interaction regarding the university information."
+    }
+  ],
+  "status": "completed",
+  "video_input_id": "31314642-3201-4977-b0c9-7894ad7cce78",
+  "video_s3_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3225LMLkKqruLq5aF1v3Syx5KWf/31314642-3201-4977-b0c9-7894ad7cce78.mp4",
+  "youtube_url": null
+}
