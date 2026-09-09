@@ -4,6 +4,23 @@
 
 かな入力・変換候補・送信・既読、アプリ切り替え、URLのコピーと貼り付け、左側からの画像受信を再現します。実際のLINEやXを操作するアプリではなく、台本に沿って描画する映像です。
 
+## バージョンを選ぶ
+
+| バージョン | 内容 | ソース |
+| --- | --- | --- |
+| v1 | 初版。全面スマホUI、初版の人物素材、操作音 | [v1](https://github.com/zumuzmjp/chikaidev-x-intro/tree/v1) |
+| v2 | 余白・実アイコン・入力UI・左側の画像受信・新しい人物素材・ピアノBGM | [v2](https://github.com/zumuzmjp/chikaidev-x-intro/tree/v2) |
+
+[v1→v2のコード差分](https://github.com/zumuzmjp/chikaidev-x-intro/compare/v1...v2)
+
+```bash
+# 初版を使う
+ git clone --branch v1 https://github.com/zumuzmjp/chikaidev-x-intro.git
+# 修正版を使う場合は --branch v2
+```
+
+v1は保存されていた初版ZIPから復元し、v2のコミットの親として登録しました。既存mainの履歴は書き換えていません。初版には後から修正されたUIの不正確さが残っています。
+
 ## はじめ方
 
 必要：Node.js 20以上、Python 3、FFmpeg、Chromiumが動く環境。
